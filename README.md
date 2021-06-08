@@ -24,9 +24,11 @@ git status
 (gives status of repository)
 
 Create a private repository in github (do no tick create readme file). CLick on SSS on repository link on github (of the created repository) and copy link, then type
+
 git remote add origin git@github.com:bewake711/Matplotlib-Examples.git
 
 Then,
+
 git push origin master
 
 This will fail as there is no authentication. For this, you should create SSH keys.
@@ -39,6 +41,7 @@ Go to account setting on github,
 	SSH key is given on bash, paste this on "add SSH key" on github
 
 Now again do,
+
 git push origin master
 
 DONEEEEEE!    code will be pushed now to githhub
