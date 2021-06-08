@@ -5,12 +5,15 @@ To upload a project from PC, open git bash on the required project folder.
 
 Then type,
 git config --global user.name bewake711
+
 git config --global user.email "bibekthapa143@gmail.com"
+
 touch .gitignore       
 (This makes a file where the files are to be ignored,   list the folders or file that are to be ignored eg: ".ipynb_checkpoints/")
 
 Then type,
 git init
+
 git add .                  (dot pani ho)
 
 git commit -m "Initial Commit"
@@ -18,7 +21,7 @@ git commit -m "Initial Commit"
 git status
 (gives status of repository)
 
-CLick on SSS on repository link on github and copy link, then type
+Create a private repository in github (do no tick create readme file). CLick on SSS on repository link on github (of the created repository) and copy link, then type
 git remote add origin git@github.com:bewake711/Matplotlib-Examples.git
 
 Then,
