@@ -4,6 +4,7 @@ Instruction to push projects to github
 To upload a project from PC, open git bash on the required project folder.
 
 Then type,
+
 git config --global user.name bewake711
 
 git config --global user.email "bibekthapa143@gmail.com"
@@ -12,6 +13,7 @@ touch .gitignore
 (This makes a file where the files are to be ignored,   list the folders or file that are to be ignored eg: ".ipynb_checkpoints/")
 
 Then type,
+
 git init
 
 git add .                  (dot pani ho)
